@@ -1,5 +1,5 @@
 {
-  "name": "@epiccoolguy/rbac-postgres",
+  "name": "@epiccoolguy/rbac-neon",
   "version": "0.0.1",
   "description": "A brief description of the project.",
   "main": "dist/index.js",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epiccoolguy/ts-rbac-postgres.git"
+    "url": "git+https://github.com/epiccoolguy/ts-rbac-neon.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epiccoolguy/ts-rbac-postgres/issues"
+    "url": "https://github.com/epiccoolguy/ts-rbac-neon/issues"
   },
-  "homepage": "https://github.com/epiccoolguy/ts-rbac-postgres#readme",
+  "homepage": "https://github.com/epiccoolguy/ts-rbac-neon#readme",
   "devDependencies": {
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
