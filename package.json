@@ -2,6 +2,7 @@
   "name": "@epiccoolguy/rbac-neon",
   "version": "0.0.1",
   "description": "A brief description of the project.",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
