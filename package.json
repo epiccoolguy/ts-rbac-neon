@@ -1,0 +1,23 @@
+{
+  "name": "@epiccoolguy/template",
+  "version": "0.0.1",
+  "description": "A brief description of the project.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epiccoolguy/js-template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/epiccoolguy/js-template/issues"
+  },
+  "homepage": "https://github.com/epiccoolguy/js-template#readme"
+}
