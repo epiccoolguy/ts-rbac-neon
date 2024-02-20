@@ -11,6 +11,8 @@
   "scripts": {
     "build": "tsc",
     "test": "jest",
+    "generate-migrations": "drizzle-kit generate:pg --schema src/db/schema.ts --out=src/db/migrations",
+    "migrate": "npm run generate-migrations && tsx src/db/migrate.ts",
     "prepack": "npm run build"
   },
   "repository": {
