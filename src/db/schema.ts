@@ -11,15 +11,11 @@ import { relations } from "drizzle-orm";
 export const roles = pgTable("roles", {
   id: serial("id").primaryKey(),
   name: text("name").notNull().unique(),
-  createdAt: timestamp("created_at"),
-  updatedAt: timestamp("updated_at"),
 });
 
 export const permissions = pgTable("permissions", {
   id: serial("id").primaryKey(),
   name: text("name").notNull().unique(),
-  createdAt: timestamp("created_at"),
-  updatedAt: timestamp("updated_at"),
 });
 
 export const rolePermissions = pgTable(
