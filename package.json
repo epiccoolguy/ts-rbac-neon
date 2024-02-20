@@ -29,6 +29,7 @@
     "@epiccoolguy/rbac": "^0.0.1",
     "@jest/globals": "^29.7.0",
     "babel-jest": "^29.7.0",
+    "drizzle-kit": "^0.20.14",
     "jest": "^29.7.0",
     "typescript": "^5.3.3"
   },
