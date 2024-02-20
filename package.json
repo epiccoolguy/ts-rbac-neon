@@ -1,5 +1,5 @@
 {
-  "name": "@epiccoolguy/template",
+  "name": "@epiccoolguy/rbac-postgres",
   "version": "0.0.1",
   "description": "A brief description of the project.",
   "main": "dist/index.js",
@@ -12,12 +12,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/epiccoolguy/js-template.git"
+    "url": "git+https://github.com/epiccoolguy/ts-rbac-postgres.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/epiccoolguy/js-template/issues"
+    "url": "https://github.com/epiccoolguy/ts-rbac-postgres/issues"
   },
-  "homepage": "https://github.com/epiccoolguy/js-template#readme"
+  "homepage": "https://github.com/epiccoolguy/ts-rbac-postgres#readme"
 }
