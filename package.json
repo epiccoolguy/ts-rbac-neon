@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/epiccoolguy/ts-rbac-postgres/issues"
   },
-  "homepage": "https://github.com/epiccoolguy/ts-rbac-postgres#readme"
+  "homepage": "https://github.com/epiccoolguy/ts-rbac-postgres#readme",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
 }
