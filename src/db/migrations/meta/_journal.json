@@ -15,6 +15,13 @@
       "when": 1708460271057,
       "tag": "0001_lowly_skin",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1708805168785,
+      "tag": "0002_omniscient_slipstream",
+      "breakpoints": true
     }
   ]
 }
