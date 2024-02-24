@@ -29,7 +29,7 @@
     "@babel/core": "^7.23.9",
     "@babel/preset-env": "^7.23.9",
     "@babel/preset-typescript": "^7.23.3",
-    "@epiccoolguy/rbac": "^0.0.1",
+    "@epiccoolguy/rbac": "^0.1.0",
     "@jest/globals": "^29.7.0",
     "babel-jest": "^29.7.0",
     "drizzle-kit": "^0.20.14",
