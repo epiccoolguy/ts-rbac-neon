@@ -5,29 +5,8 @@
     {
       "idx": 0,
       "version": "5",
-      "when": 1708456749040,
-      "tag": "0000_handy_spiral",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "5",
-      "when": 1708460271057,
-      "tag": "0001_lowly_skin",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "5",
-      "when": 1708805168785,
-      "tag": "0002_omniscient_slipstream",
-      "breakpoints": true
-    },
-    {
-      "idx": 3,
-      "version": "5",
-      "when": 1708813280061,
-      "tag": "0003_flawless_sway",
+      "when": 1708815726889,
+      "tag": "0000_third_red_shift",
       "breakpoints": true
     }
   ]
