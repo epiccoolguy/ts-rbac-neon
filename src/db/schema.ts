@@ -21,10 +21,10 @@ export const rolePermissions = pgTable(
   {
     roleId: integer("role_id")
       .notNull()
-      .references(() => roles.id),
+      .references(() => roles.id, { onDelete: "cascade" }),
     permissionId: integer("permission_id")
       .notNull()
-      .references(() => permissions.id),
+      .references(() => permissions.id, { onDelete: "cascade" }),
   },
   (table) => ({
     pk: primaryKey({ columns: [table.roleId, table.permissionId] }),
@@ -41,10 +41,10 @@ export const subjectRoles = pgTable(
   {
     subjectId: integer("subject_id")
       .notNull()
-      .references(() => subjects.id),
+      .references(() => subjects.id, { onDelete: "cascade" }),
     roleId: integer("role_id")
       .notNull()
-      .references(() => roles.id),
+      .references(() => roles.id, { onDelete: "cascade" }),
   },
   (table) => ({
     pk: primaryKey({ columns: [table.subjectId, table.roleId] }),
