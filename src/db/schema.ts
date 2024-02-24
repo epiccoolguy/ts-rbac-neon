@@ -4,9 +4,7 @@ import {
   primaryKey,
   serial,
   text,
-  timestamp,
 } from "drizzle-orm/pg-core";
-import { relations } from "drizzle-orm";
 
 export const roles = pgTable("roles", {
   id: serial("id").primaryKey(),
@@ -33,24 +31,22 @@ export const rolePermissions = pgTable(
   })
 );
 
-export const rolesRelations = relations(roles, ({ many }) => ({
-  permissions: many(permissions),
-}));
+export const subjects = pgTable("subjects", {
+  id: serial("id").primaryKey(),
+  name: text("name").notNull().unique(),
+});
 
-export const permissionsRelations = relations(permissions, ({ many }) => ({
-  roles: many(roles),
-}));
-
-export const rolePermissionsRelations = relations(
-  rolePermissions,
-  ({ one }) => ({
-    role: one(permissions, {
-      fields: [rolePermissions.permissionId],
-      references: [permissions.id],
-    }),
-    permission: one(roles, {
-      fields: [rolePermissions.roleId],
-      references: [roles.id],
-    }),
+export const subjectRoles = pgTable(
+  "subject_roles",
+  {
+    subjectId: integer("subject_id")
+      .notNull()
+      .references(() => subjects.id),
+    roleId: integer("role_id")
+      .notNull()
+      .references(() => roles.id),
+  },
+  (table) => ({
+    pk: primaryKey({ columns: [table.subjectId, table.roleId] }),
   })
 );
